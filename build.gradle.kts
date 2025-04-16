@@ -26,6 +26,9 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
+
+    // https://mvnrepository.com/artifact/io.awspring.cloud/spring-cloud-aws-starter-s3
+    implementation("io.awspring.cloud:spring-cloud-aws-starter-s3:3.3.0")
 }
 
 kotlin {
